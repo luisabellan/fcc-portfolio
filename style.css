@@ -11195,7 +11195,7 @@ html body .wrapper header div.header {
           justify-content: center;
 }
 
-html body .wrapper header div.header h1 {
+html body .wrapper header div.header h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11210,13 +11210,13 @@ html body .wrapper header div.header h1 {
 }
 
 @media (min-width: 500px) {
-  html body .wrapper header div.header h1 {
+  html body .wrapper header div.header h3 {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 800px) {
-  html body .wrapper header div.header h1 {
+  html body .wrapper header div.header h3 {
     font-size: 2rem;
   }
 }
@@ -11313,7 +11313,7 @@ html body .wrapper header nav .links a {
   }
 }
 
-html body .wrapper .about {
+html body .wrapper #welcome-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11324,11 +11324,48 @@ html body .wrapper .about {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
-  margin: 30rem 0 0 0;
+  margin: 0 auto;
+  margin-top: 15rem;
   height: 100vh;
 }
 
-html body .wrapper .about .top {
+html body .wrapper #welcome-section #description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: justify;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .wrapper #welcome-section #description p {
+  margin: 1rem 0;
+  font-family: "Exo 2", sans-serif;
+  width: 20rem;
+  line-height: 1.6rem;
+  color: #ecf1ed;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 500px) {
+  html body .wrapper #welcome-section #description p {
+    font-size: 1.15rem;
+    width: 25rem;
+  }
+}
+
+@media (min-width: 800px) {
+  html body .wrapper #welcome-section #description p {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    width: 33rem;
+  }
+}
+
+html body .wrapper #welcome-section .top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11341,7 +11378,7 @@ html body .wrapper .about .top {
           flex: 1;
 }
 
-html body .wrapper .about .top img {
+html body .wrapper #welcome-section .top img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11355,18 +11392,18 @@ html body .wrapper .about .top img {
 }
 
 @media (min-width: 500px) {
-  html body .wrapper .about .top img {
+  html body .wrapper #welcome-section .top img {
     width: 12rem;
   }
 }
 
 @media (min-width: 800px) {
-  html body .wrapper .about .top img {
+  html body .wrapper #welcome-section .top img {
     width: 12rem;
   }
 }
 
-html body .wrapper .about .top h3 {
+html body .wrapper #welcome-section .top h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11379,18 +11416,18 @@ html body .wrapper .about .top h3 {
 }
 
 @media (min-width: 500px) {
-  html body .wrapper .about .top h3 {
+  html body .wrapper #welcome-section .top h1 {
     font-size: 2.265rem;
   }
 }
 
 @media (min-width: 800px) {
-  html body .wrapper .about .top h3 {
+  html body .wrapper #welcome-section .top h1 {
     font-size: 3rem;
   }
 }
 
-html body .wrapper .about .top p.stack {
+html body .wrapper #welcome-section .top p.stack {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11403,51 +11440,17 @@ html body .wrapper .about .top p.stack {
 }
 
 @media (min-width: 800px) {
-  html body .wrapper .about .top p.stack {
+  html body .wrapper #welcome-section .top p.stack {
     width: 31rem;
   }
 }
 
-html body .wrapper .about .top #welcome-section {
+html body .wrapper #welcome-section .top #welcome-section {
   height: 100vh;
   margin: 0 auto;
 }
 
-html body .wrapper .about .top #welcome-section h1 {
-  color: #ecf1ed;
-}
-
-html body .wrapper .about .top #welcome-section p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  text-align: justify;
-  margin: 1rem 0;
-  font-family: "Exo 2", sans-serif;
-  width: 20rem;
-  line-height: 1.6rem;
-  color: #ecf1ed;
-  font-size: 1.1rem;
-}
-
-@media (min-width: 500px) {
-  html body .wrapper .about .top #welcome-section p {
-    font-size: 1.15rem;
-    width: 25rem;
-  }
-}
-
-@media (min-width: 800px) {
-  html body .wrapper .about .top #welcome-section p {
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    width: 33rem;
-  }
-}
-
-html body .wrapper .about .top .social {
+html body .wrapper #welcome-section .top .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11464,22 +11467,22 @@ html body .wrapper .about .top .social {
 }
 
 @media (min-width: 800px) {
-  html body .wrapper .about .top .social {
+  html body .wrapper #welcome-section .top .social {
     width: 20rem;
   }
 }
 
-html body .wrapper .about .top .social a.twitter {
+html body .wrapper #welcome-section .top .social a.twitter {
   font-size: 3em;
   color: #74f34d;
 }
 
-html body .wrapper .about .top .social a.github {
+html body .wrapper #welcome-section .top .social a.github {
   font-size: 3em;
   color: #74f34d;
 }
 
-html body .wrapper .about .top .social a.linkedin {
+html body .wrapper #welcome-section .top .social a.linkedin {
   font-size: 3em;
   color: #74f34d;
 }
@@ -11517,9 +11520,7 @@ html body .wrapper #projects h2 {
   font-family: "Cabin", sans-serif;
   color: #ecf1ed;
   font-size: 2rem;
-  margin-top: 3rem;
   margin-bottom: 5rem;
-  padding: 3rem auto;
 }
 
 @media (min-width: 500px) {
@@ -11543,7 +11544,6 @@ html body .wrapper #projects .projects {
       grid-template-rows: 40rem 40rem 40rem 40rem 40rem 40rem;
   grid-row-gap: 8rem;
   margin: 0 auto;
-  margin-bottom: 20rem;
 }
 
 @media (min-width: 800px) {
@@ -11575,10 +11575,10 @@ html body .wrapper #projects .projects .project-tile {
   display: grid;
   -ms-grid-columns: 20rem;
       grid-template-columns: 20rem;
-  -ms-grid-rows: 2rem 10rem 3rem 1rem 10rem;
-      grid-template-rows: 2rem 10rem 3rem 1rem 10rem;
+  -ms-grid-rows: 2rem 10rem 1rem 2rem 3rem;
+      grid-template-rows: 2rem 10rem 1rem 2rem 3rem;
   grid-row-gap: 2rem;
-  grid-column-gap: 20rem;
+  grid-column-gap: 2rem;
   margin: 0 auto;
   text-align: justify;
   width: 15rem;
@@ -11608,45 +11608,6 @@ html body .wrapper #projects .projects .project-tile p.points {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-}
-
-html body .wrapper #projects .projects .project-tile h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Cabin", sans-serif;
-  color: #ecf1ed;
-  font-size: 5rem;
-}
-
-@media (min-width: 500px) {
-  html body .wrapper #projects .projects .project-tile h2 {
-    font-size: 8rem;
-  }
-}
-
-@media (min-width: 800px) {
-  html body .wrapper #projects .projects .project-tile h2 {
-    font-size: 8rem;
-  }
-}
-
-html body .wrapper #projects .projects .project-tile img {
-  border: 3px solid #ecf1ed;
-  border-radius: 4px;
-  height: 10rem;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-  width: 15rem;
-}
-
-@media (min-width: 400px) {
-  html body .wrapper #projects .projects .project-tile img {
-    width: 20rem;
-  }
 }
 
 html body .wrapper #projects .projects .project-tile h3 {
@@ -11682,6 +11643,20 @@ html body .wrapper #projects .projects .project-tile h3 {
   }
 }
 
+html body .wrapper #projects .projects .project-tile img {
+  border: 3px solid #ecf1ed;
+  border-radius: 4px;
+  height: 10rem;
+  margin: 0 auto;
+  width: 20rem;
+}
+
+@media (min-width: 400px) {
+  html body .wrapper #projects .projects .project-tile img {
+    width: 20rem;
+  }
+}
+
 html body .wrapper #projects .projects .project-tile .dont-justify {
   text-align: center;
   font-size: 1.6rem;
@@ -11690,7 +11665,6 @@ html body .wrapper #projects .projects .project-tile .dont-justify {
 html body .wrapper #projects .projects .project-tile p.built-using {
   line-height: 1.6rem;
   font-family: "Exo 2", sans-serif;
-  line-height: 1.6rem;
   color: #ecf1ed;
   font-size: 0.875rem;
 }
@@ -11713,31 +11687,31 @@ html body .wrapper #projects .projects .project-tile p.built-using {
   }
 }
 
-html body .wrapper #projects .projects .project-tile span {
+html body .wrapper #projects .projects .project-tile p.built-using span {
   /* color: lighten($color: $text-color, $amount: 20%);*/
   color: #f3b94d;
   font-size: 1rem;
 }
 
 @media (min-width: 400px) {
-  html body .wrapper #projects .projects .project-tile span {
+  html body .wrapper #projects .projects .project-tile p.built-using span {
     font-size: 1.15rem;
   }
 }
 
 @media (min-width: 500px) {
-  html body .wrapper #projects .projects .project-tile span {
+  html body .wrapper #projects .projects .project-tile p.built-using span {
     font-size: 1.15rem;
   }
 }
 
 @media (min-width: 800px) {
-  html body .wrapper #projects .projects .project-tile span {
+  html body .wrapper #projects .projects .project-tile p.built-using span {
     font-size: 1.3rem;
   }
 }
 
-html body .wrapper #projects .projects p.responsibilities {
+html body .wrapper #projects .projects .project-tile p.responsibilities {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -11748,39 +11722,60 @@ html body .wrapper #projects .projects p.responsibilities {
   color: #ecf1ed;
   font-size: 1.1rem;
   width: 20rem;
+  padding: 2rem 0;
 }
 
 @media (min-width: 500px) {
-  html body .wrapper #projects .projects p.responsibilities {
+  html body .wrapper #projects .projects .project-tile p.responsibilities {
     font-size: 1.15rem;
     width: 25rem;
   }
 }
 
 @media (min-width: 800px) {
-  html body .wrapper #projects .projects p.responsibilities {
+  html body .wrapper #projects .projects .project-tile p.responsibilities {
     font-size: 1.2rem;
     width: 30rem;
   }
 }
 
 @media (min-width: 1260px) {
-  html body .wrapper #projects .projects p.responsibilities {
+  html body .wrapper #projects .projects .project-tile p.responsibilities {
     font-size: 1.1rem;
   }
 }
 
-html body .wrapper #projects .projects p.responsibilities span {
-  color: white;
+html body .wrapper #projects .projects .project-tile p.responsibilities span {
+  /* color: lighten($color: $text-color, $amount: 20%);*/
+  color: #f3b94d;
+  font-size: 1rem;
 }
 
-html body .wrapper #projects .projects .description {
+@media (min-width: 400px) {
+  html body .wrapper #projects .projects .project-tile p.responsibilities span {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 500px) {
+  html body .wrapper #projects .projects .project-tile p.responsibilities span {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 800px) {
+  html body .wrapper #projects .projects .project-tile p.responsibilities span {
+    font-size: 1.3rem;
+  }
+}
+
+html body .wrapper #projects .projects .project-tile .description {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-html body .wrapper #projects .projects .description p {
+html body .wrapper #projects .projects .project-tile .description p {
   color: #ecf1ed;
   font-size: 0.875rem;
   font-family: "Exo 2", sans-serif;
@@ -11788,19 +11783,19 @@ html body .wrapper #projects .projects .description p {
 }
 
 @media (min-width: 400px) {
-  html body .wrapper #projects .projects .description p {
+  html body .wrapper #projects .projects .project-tile .description p {
     font-size: 1.15rem;
   }
 }
 
 @media (min-width: 500px) {
-  html body .wrapper #projects .projects .description p {
+  html body .wrapper #projects .projects .project-tile .description p {
     font-size: 1.15rem;
   }
 }
 
 @media (min-width: 800px) {
-  html body .wrapper #projects .projects .description p {
+  html body .wrapper #projects .projects .project-tile .description p {
     font-size: 1.3rem;
   }
 }
@@ -12089,18 +12084,22 @@ html body #contact form .send-button-container .send-button {
   color: #f3b94d;
 }
 
-html body #contact footer p {
+html body #contact form .send-button-container:hover {
+  background-color: #f3b94d;
+}
+
+html body footer p {
   color: #ecf1ed;
   margin: 3rem;
 }
 
-html body #contact .show {
+html body .show {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
 }
 
-html body #contact .hidden {
+html body .hidden {
   display: none !important;
 }
 /*# sourceMappingURL=style.css.map */
