@@ -1,0 +1,125 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// colors
+
+/* // colors 1
+$text-color: #1e4986;
+$social-icons: #1e4986;
+$background-color: rgb(224, 231, 241); */
+// colors 2
+$text-color: #ecf1ed;
+$social-icons: #74f34d;
+$orange-accent: #f3b94d;
+$stars: $social-icons;
+$bold-text: social-icons;
+$background-color: #1c1e1f;
+$button-bg-color: $social-icons;
+
+
+
+
+.navbar {
+  background-color: #1c1e1f;
+  flex-direction: row;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+  @media (min-width: 500px) {
+    height: 10%;
+  }
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  line-height: 2rem;
+  height: 60rem;
+
+  @media (min-width: 500px) {
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    height: 20em;
+  }
+  @media (min-width: 800px) {
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    height: 10em;
+  }
+}
+
+.navbar-toggle-icon {
+  display: flex;
+  flex: 1;
+}
+
+.navbar-brand {
+  display: flex;
+  margin: 0 auto;
+  font-size: 2.2rem;
+}
+.navbar-toggler {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  margin-right: 2rem;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.8rem;
+  line-height: 7rem;
+  margin-top: -17rem;
+
+  @media (min-width: 500px) {
+    display: flex;
+    font-size: 1.3rem;
+    line-height: 0;
+    margin-right: 2em;
+    margin-top: -17rem;
+  }
+  @media (min-width: 800px) {
+    display: flex;
+    font-size: 1.3rem;
+    line-height: 0;
+    margin-right: 2em;
+    margin-top: -17rem;
+  }
+}
+.fa-star {
+  color: $stars;
+}
+
+.github-button-container {
+  @include button(17rem);
+
+  .github-button {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0rem auto;
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    color: $orange-accent;
+  }
+}
+.fa-github {
+  color: $stars;
+  margin-right: 1rem;
+}
+
+.fa-paper-plane {
+  color: $stars;
+  margin-right: 1rem;
+  margin-top: 0.1rem;
+}
