@@ -1,0 +1,25 @@
+{
+  "name": "fcc-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio is @ https://www.luisabellan.com deployed here too: https://luisabellan-squarerobin.netlify.com/",
+  "main": "script.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisabellan/fcc-portfolio.git"
+  },
+  "author": "Luis Abellan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisabellan/fcc-portfolio/issues"
+  },
+  "homepage": "https://github.com/luisabellan/fcc-portfolio#readme"
+}
